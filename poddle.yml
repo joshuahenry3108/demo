@@ -1,7 +1,7 @@
 poddle:
   version: "1.0"
-  project: zentri
-  appName: zentri-BE
+  project: traff
+  appName: traff-BE
   type: WEB_SERVICE
   health: /health
   port: 8080
