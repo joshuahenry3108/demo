@@ -1,15 +1,15 @@
 poddle:
   version: "1.0"
-  project: trimble
-  appName: timble-BE
+  project: triager
+  appName: triager-BE
   type: WEB_SERVICE
   health: /health
   port: 8080
   env:
-    preview:
+    qa:
       branch: main
       entryPoint: index.js
-      domain: api.poddleops.com
+      domain: demo-qa.poddleops.com
       specs:
         compute:
           cpu: 2
