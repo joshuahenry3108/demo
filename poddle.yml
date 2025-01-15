@@ -6,9 +6,8 @@ poddle:
   health: /health
   port: 8080
   env:
-    qa:
+    preview:
       entryPoint: "index.js"
-      branch: "dev"
       specs:
         compute:
           cpu: 2
