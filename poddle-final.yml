@@ -1,0 +1,90 @@
+poddle:
+  version: "1.0"
+  project: "youtube"
+  appName: "authentication-service"
+  type: WebService
+  health: /api/v1/health
+  env:
+    preview:
+      entryPoint: "index.js"
+      specs:
+        compute:
+          cpu: 2
+          memory: 4
+          storage: 20
+        database:
+          cpu: 2
+          memory: 4
+          storage: 50
+          engine: "postgres"
+          version: 16.0.2
+      variables:
+        BASE_URL: "/api/v1"
+        DATABASE_URL: ${DATABASE_URL}
+        DATABASE_USERNAME: ${DATABASE_USERNAME}
+        DATABASE_PASSWORD: ${DATABASE_PASSWORD}
+      port: 8080
+    qa:
+      branch: qa
+      entryPoint: "index.js"
+      specs:
+        compute:
+          cpu: 2
+          memory: 4
+          storage: 20
+        database:
+          cpu: 2
+          memory: 4
+          storage: 50
+          engine: "postgres"
+          version: 16.0.2
+      variables:
+        BASE_URL: "/api/v1"
+        DATABASE_URL: ${DATABASE_URL}
+        DATABASE_USERNAME: ${DATABASE_USERNAME}
+        DATABASE_PASSWORD: ${DATABASE_PASSWORD}
+      port: 8080
+    staging:
+      branch: stg
+      entryPoint: "index.js"
+      specs:
+        compute:
+          cpu: 2
+          memory: 4
+          storage: 20
+        database:
+          cpu: 2
+          memory: 4
+          storage: 50
+          engine: "postgres"
+          version: 16.0.2
+      variables:
+        BASE_URL: "/api/v1"
+        DATABASE_URL: ${DATABASE_URL}
+        DATABASE_USERNAME: ${DATABASE_USERNAME}
+        DATABASE_PASSWORD: ${DATABASE_PASSWORD}
+      port: 8080
+    production:
+      branch: prod
+      entryPoint: "index.js"
+      domain: demo-qa.poddleops.com
+      specs:
+        compute:
+          cpu: 2
+          memory: 4
+          storage: 20
+          autoScaling:
+            replica:
+              min: 1
+              max: 3
+        database:
+          cpu: 2
+          memory: 4
+          storage: 50
+          engine: "postgres"
+          version: 16.0.2
+      variables:
+        BASE_URL: "/api/v1"
+        DATABASE_URL: ${DATABASE_URL}
+        DATABASE_USERNAME: ${DATABASE_USERNAME}
+        DATABASE_PASSWORD: ${DATABASE_PASSWORD}
