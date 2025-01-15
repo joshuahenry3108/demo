@@ -9,7 +9,6 @@ poddle:
     production:
       branch: dev
       entryPoint: index.js
-      domain: "auth-service-qa.poddleops.com"
       specs:
         compute:
           cpu: 2
