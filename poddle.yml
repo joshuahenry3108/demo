@@ -7,7 +7,7 @@ poddle:
   port: 8080
   env:
     production:
-      branch: dev
+      branch: main
       entryPoint: index.js
       domain: example.com
       specs:
