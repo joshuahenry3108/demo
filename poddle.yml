@@ -9,6 +9,7 @@ poddle:
     production:
       branch: dev
       entryPoint: index.js
+      domain: example.com
       specs:
         compute:
           cpu: 2
