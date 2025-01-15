@@ -7,7 +7,7 @@ poddle:
   port: 8080
   env:
     production:
-      branch: main
+      branch: dev
       entryPoint: index.js
       domain: "auth-service-qa.poddleops.com"
       specs:
