@@ -8,6 +8,7 @@ poddle:
   env:
     qa:
       entryPoint: "index.js"
+      branch: "dev"
       specs:
         compute:
           cpu: 2
