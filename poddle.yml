@@ -7,7 +7,6 @@ poddle:
   port: 8080
   env:
     preview:
-      branch: main
       entryPoint: index.js
       specs:
         compute:
