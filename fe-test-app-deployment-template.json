@@ -1,0 +1,135 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Parameters": {
+    "AppName": {
+      "Type": "String",
+      "MinLength": "1"
+    },
+    "DomainName": {
+      "Type": "String",
+      "Default": "fe-testing.poddleops.com"
+    },
+    "HostedZoneId": {
+      "Type": "String",
+      "Default": "Z07337871MHZBZMXB703P"
+    }
+  },
+  "Resources": {
+    "WebsiteBucket": {
+      "Type": "AWS::S3::Bucket",
+      "Properties": {
+        "BucketName": {
+          "Ref": "AppName"
+        },
+        "OwnershipControls": {
+          "Rules": [
+            {
+              "ObjectOwnership": "BucketOwnerEnforced"
+            }
+          ]
+        },
+        "WebsiteConfiguration": {
+          "IndexDocument": "index.html",
+          "ErrorDocument": "error.html"
+        },
+        "PublicAccessBlockConfiguration": {
+          "BlockPublicAcls": true,
+          "BlockPublicPolicy": false,
+          "IgnorePublicAcls": true,
+          "RestrictPublicBuckets": false
+        }
+      }
+    },
+    "WebsiteBucketPolicy": {
+      "Type": "AWS::S3::BucketPolicy",
+      "Properties": {
+        "Bucket": { "Ref": "WebsiteBucket" },
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Effect": "Allow",
+              "Principal": "*",
+              "Action": "s3:GetObject",
+              "Resource": { "Fn::Sub": "${WebsiteBucket.Arn}/*" }
+            }
+          ]
+        }
+      }
+    },
+    "CloudFrontDistribution": {
+      "Type": "AWS::CloudFront::Distribution",
+      "Properties": {
+        "DistributionConfig": {
+          "Enabled": true,
+          "Origins": [
+            {
+              "Id": "S3Origin",
+              "DomainName": {
+                "Fn::GetAtt": ["WebsiteBucket", "RegionalDomainName"]
+              },
+              "S3OriginConfig": {}
+            }
+          ],
+          "Aliases": ["dev.poddleops.com"],
+          "DefaultCacheBehavior": {
+            "TargetOriginId": "S3Origin",
+            "ViewerProtocolPolicy": "redirect-to-https",
+            "AllowedMethods": ["GET", "HEAD"],
+            "CachedMethods": ["GET", "HEAD"],
+            "ForwardedValues": {
+              "QueryString": false,
+              "Cookies": { "Forward": "none" }
+            }
+          },
+          "ViewerCertificate": {
+            "AcmCertificateArn": { "Ref": "SSLCertificate" },
+            "SslSupportMethod": "sni-only",
+            "MinimumProtocolVersion": "TLSv1.2_2021"
+          },
+          "DefaultRootObject": "index.html"
+        }
+      }
+    },
+    "DNSRecord": {
+      "Type": "AWS::Route53::RecordSet",
+      "Properties": {
+        "HostedZoneId": { "Ref": "HostedZoneId" },
+        "Name": {
+          "Ref": "DomainName"
+        },
+        "Type": "A",
+        "AliasTarget": {
+          "HostedZoneId": { "Ref": "HostedZoneId" },
+          "DNSName": { "Fn::GetAtt": ["CloudFrontDistribution", "DomainName"] }
+        }
+      }
+    },
+    "SSLCertificate": {
+      "Type": "AWS::CertificateManager::Certificate",
+      "Properties": {
+        "DomainName": {
+          "Ref": "DomainName"
+        },
+        "ValidationMethod": "DNS",
+        "DomainValidationOptions": [
+          {
+            "DomainName": {
+              "Ref": "DomainName"
+            },
+            "ValidationDomain": "poddleops.com"
+          }
+        ]
+      }
+    }
+  },
+  "Outputs": {
+    "S3BucketName": {
+      "Description": "S3 Bucket Name for the website",
+      "Value": { "Ref": "WebsiteBucket" }
+    },
+    "CloudFrontURL": {
+      "Description": "URL of the CloudFront Distribution",
+      "Value": { "Fn::Sub": "https://${CloudFrontDistribution.DomainName}" }
+    }
+  }
+}

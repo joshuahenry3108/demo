@@ -1,13 +1,14 @@
 poddle:
   version: "1.0"
-  project: traff
-  appName: traff-BE
+  project: qucare
+  appName: qucare-BE
   type: WEB_SERVICE
   health: /health
   port: 8080
   env:
     preview:
       entryPoint: "index.js"
+      branch: "dev"
       specs:
         compute:
           cpu: 2
