@@ -1,7 +1,7 @@
 poddle:
   version: "1.0"
-  project: qucare
-  appName: qucare-BE
+  project: clique
+  appName: clique-BE
   type: WEB_SERVICE
   health: /health
   port: 8080
@@ -9,7 +9,7 @@ poddle:
     preview:
       entryPoint: "index.js"
       branch: "demo-dev"
-      domain: "quecare-dev.poddleops.com"
+      domain: "clique-dev.poddleops.com"
       specs:
         compute:
           cpu: 2
