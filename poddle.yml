@@ -27,7 +27,8 @@ poddle:
           version: "16"
       variables:
         API_BASE_URL: https://your-url.com
-        DATABASE_URL: your_database_url
-        DATABASE_USERNAME: database_user_name
-        DATABASE_PASSWORD: database_password
+        DATABASE_URL: "#{dbUrl}"
+        DATABASE_PORT: "#{dbPort}"
+        DATABASE_USERNAME: "#{dbUsername}"
+        DATABASE_PASSWORD: "#{dbPassword}"
   
