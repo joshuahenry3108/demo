@@ -8,7 +8,7 @@ poddle:
   env:
     preview:
       entryPoint: "index.js"
-      branch: "demo-dev-branch999"
+      branch: "demo-dev-branch9999"
       domain: "clique-dev.poddleops.com"
       specs:
         compute:
