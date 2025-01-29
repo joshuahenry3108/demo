@@ -7,7 +7,7 @@ poddle:
   port: 8080
   env:
     qa:
-      branch: qa
+      branch: testing-qa
       entryPoint: index.js
       domain: api.poddleops.com
       specs:
