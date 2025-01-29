@@ -12,10 +12,10 @@ import { caCertificate } from "./data.js";
 
 const AppDataSource = new DataSource({
   type: "postgres",
-  host: "localhost",
-  port: 5432,
-  username: "postgres",
-  password: "root",
+  host: process.env.DATABASE_URL ?? "localhost",
+  port: process.env.DATABASE_PORT ?? 5432,
+  username: process.env.DATABASE_USERNAME ?? "postgres",
+  password: process.env.DATABASE_PASSWORD ?? "root",
   database: "postgres",
   synchronize: true,
   logging: false,

@@ -3,7 +3,7 @@ poddle:
   project: axxesMarine
   appName: axxess-marine-be
   type: WEB_SERVICE
-  health: /api/v1/health
+  health: /health
   port: 8080
   env:
     qa:
