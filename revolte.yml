@@ -9,6 +9,7 @@ revolte:
     #preview, staging, production
     preview:
       entryPoint: "Program.cs"
+      # scheduler: "cron(5 5-1 5W jan ? *)"
       specs:
         compute:
           cpu: 2 #1,2,4,8
