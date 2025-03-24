@@ -1,0 +1,1027 @@
+{
+  "CPU Utilization": {
+    "unit": "Percent",
+    "data": [
+      {
+        "name": "2025-03-19T08:02:00.000Z",
+        "series": "Instance-1",
+        "idle": 98.4,
+        "user": 1,
+        "system": 0.6
+      },
+      {
+        "name": "2025-03-19T08:02:00.000Z",
+        "series": "Instance-2",
+        "idle": 94.9,
+        "user": 3.5,
+        "system": 1.6
+      },
+      {
+        "name": "2025-03-19T08:04:00.000Z",
+        "series": "Instance-1",
+        "idle": 97.1,
+        "user": 1.8,
+        "system": 1.1
+      },
+      {
+        "name": "2025-03-19T08:04:00.000Z",
+        "series": "Instance-2",
+        "idle": 96.7,
+        "user": 2.3,
+        "system": 1
+      },
+      {
+        "name": "2025-03-19T08:06:00.000Z",
+        "series": "Instance-1",
+        "idle": 96.3,
+        "user": 2.3,
+        "system": 1.4
+      },
+      {
+        "name": "2025-03-19T08:06:00.000Z",
+        "series": "Instance-2",
+        "idle": 97.4,
+        "user": 1.8,
+        "system": 0.8
+      },
+      {
+        "name": "2025-03-19T08:08:00.000Z",
+        "series": "Instance-1",
+        "idle": 94.8,
+        "user": 3.2,
+        "system": 2
+      },
+      {
+        "name": "2025-03-19T08:08:00.000Z",
+        "series": "Instance-2",
+        "idle": 96.3,
+        "user": 2.5,
+        "system": 1.2
+      },
+      {
+        "name": "2025-03-19T08:10:00.000Z",
+        "series": "Instance-1",
+        "idle": 95.4,
+        "user": 2.6,
+        "system": 2
+      },
+      {
+        "name": "2025-03-19T08:10:00.000Z",
+        "series": "Instance-2",
+        "idle": 94.6,
+        "user": 3.8,
+        "system": 1.6
+      },
+      {
+        "name": "2025-03-19T08:12:00.000Z",
+        "series": "Instance-1",
+        "idle": 96.9,
+        "user": 1.8,
+        "system": 1.3
+      },
+      {
+        "name": "2025-03-19T08:12:00.000Z",
+        "series": "Instance-2",
+        "idle": 92.1,
+        "user": 5.4,
+        "system": 2.5
+      },
+      {
+        "name": "2025-03-19T08:14:00.000Z",
+        "series": "Instance-1",
+        "idle": 97.5,
+        "user": 1.5,
+        "system": 1
+      },
+      {
+        "name": "2025-03-19T08:14:00.000Z",
+        "series": "Instance-2",
+        "idle": 90.3,
+        "user": 6.7,
+        "system": 3
+      },
+      {
+        "name": "2025-03-19T08:16:00.000Z",
+        "series": "Instance-1",
+        "idle": 97.8,
+        "user": 1.3,
+        "system": 0.9
+      },
+      {
+        "name": "2025-03-19T08:16:00.000Z",
+        "series": "Instance-2",
+        "idle": 91.5,
+        "user": 5.8,
+        "system": 2.7
+      },
+      {
+        "name": "2025-03-19T08:18:00.000Z",
+        "series": "Instance-1",
+        "idle": 98.2,
+        "user": 1.1,
+        "system": 0.7
+      },
+      {
+        "name": "2025-03-19T08:18:00.000Z",
+        "series": "Instance-2",
+        "idle": 93.8,
+        "user": 4.2,
+        "system": 2
+      },
+      {
+        "name": "2025-03-19T08:20:00.000Z",
+        "series": "Instance-1",
+        "idle": 98.7,
+        "user": 0.9,
+        "system": 0.4
+      },
+      {
+        "name": "2025-03-19T08:20:00.000Z",
+        "series": "Instance-2",
+        "idle": 95.2,
+        "user": 3.1,
+        "system": 1.7
+      }
+    ],
+    "valueKeys": ["value", "idle", "user", "system"],
+    "chartDescription": "CPU Utiization description"
+  },
+  "Network In": {
+    "unit": "KB",
+    "data": [
+      {
+        "name": "2025-03-19T08:02:00.000Z",
+        "series": "Instance-1",
+        "value": 47.84
+      },
+      {
+        "name": "2025-03-19T08:02:00.000Z",
+        "series": "Instance-2",
+        "value": 157.21
+      },
+      {
+        "name": "2025-03-19T08:04:00.000Z",
+        "series": "Instance-1",
+        "value": 52.16
+      },
+      {
+        "name": "2025-03-19T08:04:00.000Z",
+        "series": "Instance-2",
+        "value": 134.56
+      },
+      {
+        "name": "2025-03-19T08:06:00.000Z",
+        "series": "Instance-1",
+        "value": 55.43
+      },
+      {
+        "name": "2025-03-19T08:06:00.000Z",
+        "series": "Instance-2",
+        "value": 102.34
+      },
+      {
+        "name": "2025-03-19T08:08:00.000Z",
+        "series": "Instance-1",
+        "value": 59.27
+      },
+      {
+        "name": "2025-03-19T08:08:00.000Z",
+        "series": "Instance-2",
+        "value": 118.67
+      },
+      {
+        "name": "2025-03-19T08:10:00.000Z",
+        "series": "Instance-1",
+        "value": 63.91
+      },
+      {
+        "name": "2025-03-19T08:10:00.000Z",
+        "series": "Instance-2",
+        "value": 143.21
+      },
+      {
+        "name": "2025-03-19T08:12:00.000Z",
+        "series": "Instance-1",
+        "value": 58.34
+      },
+      {
+        "name": "2025-03-19T08:12:00.000Z",
+        "series": "Instance-2",
+        "value": 176.89
+      },
+      {
+        "name": "2025-03-19T08:14:00.000Z",
+        "series": "Instance-1",
+        "value": 53.86
+      },
+      {
+        "name": "2025-03-19T08:14:00.000Z",
+        "series": "Instance-2",
+        "value": 204.32
+      },
+      {
+        "name": "2025-03-19T08:16:00.000Z",
+        "series": "Instance-1",
+        "value": 49.72
+      },
+      {
+        "name": "2025-03-19T08:16:00.000Z",
+        "series": "Instance-2",
+        "value": 187.45
+      },
+      {
+        "name": "2025-03-19T08:18:00.000Z",
+        "series": "Instance-1",
+        "value": 46.58
+      },
+      {
+        "name": "2025-03-19T08:18:00.000Z",
+        "series": "Instance-2",
+        "value": 156.78
+      },
+      {
+        "name": "2025-03-19T08:20:00.000Z",
+        "series": "Instance-1",
+        "value": 42.03
+      },
+      {
+        "name": "2025-03-19T08:20:00.000Z",
+        "series": "Instance-2",
+        "value": 124.56
+      }
+    ],
+    "valueKeys": ["value"]
+  },
+  "Network Out": {
+    "unit": "KB",
+    "data": [
+      {
+        "name": "2025-03-19T08:02:00.000Z",
+        "series": "Instance-1",
+        "value": 51.05
+      },
+      {
+        "name": "2025-03-19T08:02:00.000Z",
+        "series": "Instance-2",
+        "value": 187.94
+      },
+      {
+        "name": "2025-03-19T08:04:00.000Z",
+        "series": "Instance-1",
+        "value": 55.43
+      },
+      {
+        "name": "2025-03-19T08:04:00.000Z",
+        "series": "Instance-2",
+        "value": 165.32
+      },
+      {
+        "name": "2025-03-19T08:06:00.000Z",
+        "series": "Instance-1",
+        "value": 59.86
+      },
+      {
+        "name": "2025-03-19T08:06:00.000Z",
+        "series": "Instance-2",
+        "value": 124.56
+      },
+      {
+        "name": "2025-03-19T08:08:00.000Z",
+        "series": "Instance-1",
+        "value": 64.52
+      },
+      {
+        "name": "2025-03-19T08:08:00.000Z",
+        "series": "Instance-2",
+        "value": 143.28
+      },
+      {
+        "name": "2025-03-19T08:10:00.000Z",
+        "series": "Instance-1",
+        "value": 68.17
+      },
+      {
+        "name": "2025-03-19T08:10:00.000Z",
+        "series": "Instance-2",
+        "value": 168.75
+      },
+      {
+        "name": "2025-03-19T08:12:00.000Z",
+        "series": "Instance-1",
+        "value": 62.48
+      },
+      {
+        "name": "2025-03-19T08:12:00.000Z",
+        "series": "Instance-2",
+        "value": 203.41
+      },
+      {
+        "name": "2025-03-19T08:14:00.000Z",
+        "series": "Instance-1",
+        "value": 57.64
+      },
+      {
+        "name": "2025-03-19T08:14:00.000Z",
+        "series": "Instance-2",
+        "value": 234.89
+      },
+      {
+        "name": "2025-03-19T08:16:00.000Z",
+        "series": "Instance-1",
+        "value": 52.94
+      },
+      {
+        "name": "2025-03-19T08:16:00.000Z",
+        "series": "Instance-2",
+        "value": 215.67
+      },
+      {
+        "name": "2025-03-19T08:18:00.000Z",
+        "series": "Instance-1",
+        "value": 48.26
+      },
+      {
+        "name": "2025-03-19T08:18:00.000Z",
+        "series": "Instance-2",
+        "value": 187.34
+      },
+      {
+        "name": "2025-03-19T08:20:00.000Z",
+        "series": "Instance-1",
+        "value": 43.71
+      },
+      {
+        "name": "2025-03-19T08:20:00.000Z",
+        "series": "Instance-2",
+        "value": 156.42
+      }
+    ],
+    "valueKeys": ["value"]
+  },
+  "Swap Usage": {
+    "unit": "KB",
+    "data": [
+      {
+        "name": "2025-03-19T08:02:00.000Z",
+        "series": "Instance-1",
+        "value": 0
+      },
+      {
+        "name": "2025-03-19T08:02:00.000Z",
+        "series": "Instance-2",
+        "value": 0
+      },
+      {
+        "name": "2025-03-19T08:04:00.000Z",
+        "series": "Instance-1",
+        "value": 0
+      },
+      {
+        "name": "2025-03-19T08:04:00.000Z",
+        "series": "Instance-2",
+        "value": 0
+      },
+      {
+        "name": "2025-03-19T08:06:00.000Z",
+        "series": "Instance-1",
+        "value": 0
+      },
+      {
+        "name": "2025-03-19T08:06:00.000Z",
+        "series": "Instance-2",
+        "value": 0
+      },
+      {
+        "name": "2025-03-19T08:08:00.000Z",
+        "series": "Instance-1",
+        "value": 0
+      },
+      {
+        "name": "2025-03-19T08:08:00.000Z",
+        "series": "Instance-2",
+        "value": 0
+      },
+      {
+        "name": "2025-03-19T08:10:00.000Z",
+        "series": "Instance-1",
+        "value": 0
+      },
+      {
+        "name": "2025-03-19T08:10:00.000Z",
+        "series": "Instance-2",
+        "value": 0
+      },
+      {
+        "name": "2025-03-19T08:12:00.000Z",
+        "series": "Instance-1",
+        "value": 0
+      },
+      {
+        "name": "2025-03-19T08:12:00.000Z",
+        "series": "Instance-2",
+        "value": 0
+      },
+      {
+        "name": "2025-03-19T08:14:00.000Z",
+        "series": "Instance-1",
+        "value": 0
+      },
+      {
+        "name": "2025-03-19T08:14:00.000Z",
+        "series": "Instance-2",
+        "value": 0
+      },
+      {
+        "name": "2025-03-19T08:16:00.000Z",
+        "series": "Instance-1",
+        "value": 0
+      },
+      {
+        "name": "2025-03-19T08:16:00.000Z",
+        "series": "Instance-2",
+        "value": 0
+      },
+      {
+        "name": "2025-03-19T08:18:00.000Z",
+        "series": "Instance-1",
+        "value": 0
+      },
+      {
+        "name": "2025-03-19T08:18:00.000Z",
+        "series": "Instance-2",
+        "value": 0
+      },
+      {
+        "name": "2025-03-19T08:20:00.000Z",
+        "series": "Instance-1",
+        "value": 0
+      },
+      { "name": "2025-03-19T08:20:00.000Z", "series": "Instance-2", "value": 0 }
+    ],
+    "valueKeys": ["value"]
+  },
+  "Memory Usage": {
+    "unit": "MB",
+    "data": [
+      {
+        "name": "2025-03-19T08:02:00.000Z",
+        "series": "Instance-1",
+        "used": 284.56,
+        "total": 572,
+        "free": 287.44
+      },
+      {
+        "name": "2025-03-19T08:02:00.000Z",
+        "series": "Instance-2",
+        "used": 765.41,
+        "total": 1024,
+        "free": 258.59
+      },
+      {
+        "name": "2025-03-19T08:04:00.000Z",
+        "series": "Instance-1",
+        "used": 288.29,
+        "total": 572,
+        "free": 283.71
+      },
+      {
+        "name": "2025-03-19T08:04:00.000Z",
+        "series": "Instance-2",
+        "used": 738.67,
+        "total": 1024,
+        "free": 285.33
+      },
+      {
+        "name": "2025-03-19T08:06:00.000Z",
+        "series": "Instance-1",
+        "used": 291.84,
+        "total": 572,
+        "free": 280.16
+      },
+      {
+        "name": "2025-03-19T08:06:00.000Z",
+        "series": "Instance-2",
+        "used": 715.24,
+        "total": 1024,
+        "free": 308.76
+      },
+      {
+        "name": "2025-03-19T08:08:00.000Z",
+        "series": "Instance-1",
+        "used": 295.73,
+        "total": 572,
+        "free": 276.27
+      },
+      {
+        "name": "2025-03-19T08:08:00.000Z",
+        "series": "Instance-2",
+        "used": 734.56,
+        "total": 1024,
+        "free": 289.44
+      },
+      {
+        "name": "2025-03-19T08:10:00.000Z",
+        "series": "Instance-1",
+        "used": 298.46,
+        "total": 572,
+        "free": 273.54
+      },
+      {
+        "name": "2025-03-19T08:10:00.000Z",
+        "series": "Instance-2",
+        "used": 756.83,
+        "total": 1024,
+        "free": 267.17
+      },
+      {
+        "name": "2025-03-19T08:12:00.000Z",
+        "series": "Instance-1",
+        "used": 292.37,
+        "total": 572,
+        "free": 279.63
+      },
+      {
+        "name": "2025-03-19T08:12:00.000Z",
+        "series": "Instance-2",
+        "used": 782.47,
+        "total": 1024,
+        "free": 241.53
+      },
+      {
+        "name": "2025-03-19T08:14:00.000Z",
+        "series": "Instance-1",
+        "used": 278.94,
+        "total": 572,
+        "free": 293.06
+      },
+      {
+        "name": "2025-03-19T08:14:00.000Z",
+        "series": "Instance-2",
+        "used": 804.28,
+        "total": 1024,
+        "free": 219.72
+      },
+      {
+        "name": "2025-03-19T08:16:00.000Z",
+        "series": "Instance-1",
+        "used": 281.16,
+        "total": 572,
+        "free": 290.84
+      },
+      {
+        "name": "2025-03-19T08:16:00.000Z",
+        "series": "Instance-2",
+        "used": 786.35,
+        "total": 1024,
+        "free": 237.65
+      },
+      {
+        "name": "2025-03-19T08:18:00.000Z",
+        "series": "Instance-1",
+        "used": 283.45,
+        "total": 572,
+        "free": 288.55
+      },
+      {
+        "name": "2025-03-19T08:18:00.000Z",
+        "series": "Instance-2",
+        "used": 758.42,
+        "total": 1024,
+        "free": 265.58
+      },
+      {
+        "name": "2025-03-19T08:20:00.000Z",
+        "series": "Instance-1",
+        "used": 286.68,
+        "total": 572,
+        "free": 285.32
+      },
+      {
+        "name": "2025-03-19T08:20:00.000Z",
+        "series": "Instance-2",
+        "used": 724.36,
+        "total": 1024,
+        "free": 299.64
+      }
+    ],
+    "valueKeys": ["value", "used", "total", "free"]
+  },
+  "Disk Usage": {
+    "unit": "Percent",
+    "data": [
+      {
+        "name": "2025-03-19T08:02:00.000Z",
+        "series": "Instance-1: /",
+        "path": "/",
+        "used": 2.7,
+        "total": 100,
+        "free": 97.3
+      },
+      {
+        "name": "2025-03-19T08:02:00.000Z",
+        "series": "Instance-2: /",
+        "path": "/",
+        "used": 36.34,
+        "total": 100,
+        "free": 63.66
+      },
+      {
+        "name": "2025-03-19T08:04:00.000Z",
+        "series": "Instance-1: /",
+        "path": "/",
+        "used": 2.72,
+        "total": 100,
+        "free": 97.28
+      },
+      {
+        "name": "2025-03-19T08:04:00.000Z",
+        "series": "Instance-2: /",
+        "path": "/",
+        "used": 36.27,
+        "total": 100,
+        "free": 63.73
+      },
+      {
+        "name": "2025-03-19T08:06:00.000Z",
+        "series": "Instance-1: /",
+        "path": "/",
+        "used": 2.74,
+        "total": 100,
+        "free": 97.26
+      },
+      {
+        "name": "2025-03-19T08:06:00.000Z",
+        "series": "Instance-2: /",
+        "path": "/",
+        "used": 36.15,
+        "total": 100,
+        "free": 63.85
+      },
+      {
+        "name": "2025-03-19T08:08:00.000Z",
+        "series": "Instance-1: /",
+        "path": "/",
+        "used": 2.75,
+        "total": 100,
+        "free": 97.25
+      },
+      {
+        "name": "2025-03-19T08:08:00.000Z",
+        "series": "Instance-2: /",
+        "path": "/",
+        "used": 36.04,
+        "total": 100,
+        "free": 63.96
+      },
+      {
+        "name": "2025-03-19T08:10:00.000Z",
+        "series": "Instance-1: /",
+        "path": "/",
+        "used": 2.76,
+        "total": 100,
+        "free": 97.24
+      },
+      {
+        "name": "2025-03-19T08:10:00.000Z",
+        "series": "Instance-2: /",
+        "path": "/",
+        "used": 35.92,
+        "total": 100,
+        "free": 64.08
+      },
+      {
+        "name": "2025-03-19T08:12:00.000Z",
+        "series": "Instance-1: /",
+        "path": "/",
+        "used": 2.78,
+        "total": 100,
+        "free": 97.22
+      },
+      {
+        "name": "2025-03-19T08:12:00.000Z",
+        "series": "Instance-2: /",
+        "path": "/",
+        "used": 35.83,
+        "total": 100,
+        "free": 64.17
+      },
+      {
+        "name": "2025-03-19T08:14:00.000Z",
+        "series": "Instance-1: /",
+        "path": "/",
+        "used": 2.81,
+        "total": 100,
+        "free": 97.19
+      },
+      {
+        "name": "2025-03-19T08:14:00.000Z",
+        "series": "Instance-2: /",
+        "path": "/",
+        "used": 35.68,
+        "total": 100,
+        "free": 64.32
+      },
+      {
+        "name": "2025-03-19T08:16:00.000Z",
+        "series": "Instance-1: /",
+        "path": "/",
+        "used": 2.83,
+        "total": 100,
+        "free": 97.17
+      },
+      {
+        "name": "2025-03-19T08:16:00.000Z",
+        "series": "Instance-2: /",
+        "path": "/",
+        "used": 35.57,
+        "total": 100,
+        "free": 64.43
+      },
+      {
+        "name": "2025-03-19T08:18:00.000Z",
+        "series": "Instance-1: /",
+        "path": "/",
+        "used": 2.85,
+        "total": 100,
+        "free": 97.15
+      },
+      {
+        "name": "2025-03-19T08:18:00.000Z",
+        "series": "Instance-2: /",
+        "path": "/",
+        "used": 35.42,
+        "total": 100,
+        "free": 64.58
+      },
+      {
+        "name": "2025-03-19T08:20:00.000Z",
+        "series": "Instance-1: /",
+        "path": "/",
+        "used": 3.14,
+        "total": 100,
+        "free": 96.86
+      },
+      {
+        "name": "2025-03-19T08:20:00.000Z",
+        "series": "Instance-2: /",
+        "path": "/",
+        "used": 35.27,
+        "total": 100,
+        "free": 64.73
+      }
+    ],
+    "valueKeys": ["value", "used", "total", "free"]
+  },
+  "Disk Read": {
+    "unit": "KB",
+    "data": [
+      {
+        "name": "2025-03-19T08:02:00.000Z",
+        "series": "Instance-1: xvda1",
+        "device": "xvda1",
+        "read": 14.57
+      },
+      {
+        "name": "2025-03-19T08:02:00.000Z",
+        "series": "Instance-2: xvda1",
+        "device": "xvda1",
+        "read": 156.72
+      },
+      {
+        "name": "2025-03-19T08:04:00.000Z",
+        "series": "Instance-1: xvda1",
+        "device": "xvda1",
+        "read": 0
+      },
+      {
+        "name": "2025-03-19T08:04:00.000Z",
+        "series": "Instance-2: xvda1",
+        "device": "xvda1",
+        "read": 114.87
+      },
+      {
+        "name": "2025-03-19T08:06:00.000Z",
+        "series": "Instance-1: xvda1",
+        "device": "xvda1",
+        "read": 8.42
+      },
+      {
+        "name": "2025-03-19T08:06:00.000Z",
+        "series": "Instance-2: xvda1",
+        "device": "xvda1",
+        "read": 76.32
+      },
+      {
+        "name": "2025-03-19T08:08:00.000Z",
+        "series": "Instance-1: xvda1",
+        "device": "xvda1",
+        "read": 25.84
+      },
+      {
+        "name": "2025-03-19T08:08:00.000Z",
+        "series": "Instance-2: xvda1",
+        "device": "xvda1",
+        "read": 98.54
+      },
+      {
+        "name": "2025-03-19T08:10:00.000Z",
+        "series": "Instance-1: xvda1",
+        "device": "xvda1",
+        "read": 62.39
+      },
+      {
+        "name": "2025-03-19T08:10:00.000Z",
+        "series": "Instance-2: xvda1",
+        "device": "xvda1",
+        "read": 143.21
+      },
+      {
+        "name": "2025-03-19T08:12:00.000Z",
+        "series": "Instance-1: xvda1",
+        "device": "xvda1",
+        "read": 48.75
+      },
+      {
+        "name": "2025-03-19T08:12:00.000Z",
+        "series": "Instance-2: xvda1",
+        "device": "xvda1",
+        "read": 198.45
+      },
+      {
+        "name": "2025-03-19T08:14:00.000Z",
+        "series": "Instance-1: xvda1",
+        "device": "xvda1",
+        "read": 5.23
+      },
+      {
+        "name": "2025-03-19T08:14:00.000Z",
+        "series": "Instance-2: xvda1",
+        "device": "xvda1",
+        "read": 267.82
+      },
+      {
+        "name": "2025-03-19T08:16:00.000Z",
+        "series": "Instance-1: xvda1",
+        "device": "xvda1",
+        "read": 12.84
+      },
+      {
+        "name": "2025-03-19T08:16:00.000Z",
+        "series": "Instance-2: xvda1",
+        "device": "xvda1",
+        "read": 234.56
+      },
+      {
+        "name": "2025-03-19T08:18:00.000Z",
+        "series": "Instance-1: xvda1",
+        "device": "xvda1",
+        "read": 0
+      },
+      {
+        "name": "2025-03-19T08:18:00.000Z",
+        "series": "Instance-2: xvda1",
+        "device": "xvda1",
+        "read": 187.34
+      },
+      {
+        "name": "2025-03-19T08:20:00.000Z",
+        "series": "Instance-1: xvda1",
+        "device": "xvda1",
+        "read": 30.66
+      },
+      {
+        "name": "2025-03-19T08:20:00.000Z",
+        "series": "Instance-2: xvda1",
+        "device": "xvda1",
+        "read": 125.78
+      }
+    ],
+    "valueKeys": ["value", "read"]
+  },
+  "Disk Write": {
+    "unit": "KB",
+    "data": [
+      {
+        "name": "2025-03-19T08:02:00.000Z",
+        "series": "Instance-1: xvda1",
+        "device": "xvda1",
+        "written": 246.32
+      },
+      {
+        "name": "2025-03-19T08:02:00.000Z",
+        "series": "Instance-2: xvda1",
+        "device": "xvda1",
+        "written": 678.94
+      },
+      {
+        "name": "2025-03-19T08:04:00.000Z",
+        "series": "Instance-1: xvda1",
+        "device": "xvda1",
+        "written": 187.94
+      },
+      {
+        "name": "2025-03-19T08:04:00.000Z",
+        "series": "Instance-2: xvda1",
+        "device": "xvda1",
+        "written": 523.46
+      },
+      {
+        "name": "2025-03-19T08:06:00.000Z",
+        "series": "Instance-1: xvda1",
+        "device": "xvda1",
+        "written": 325.67
+      },
+      {
+        "name": "2025-03-19T08:06:00.000Z",
+        "series": "Instance-2: xvda1",
+        "device": "xvda1",
+        "written": 356.48
+      },
+      {
+        "name": "2025-03-19T08:08:00.000Z",
+        "series": "Instance-1: xvda1",
+        "device": "xvda1",
+        "written": 543.21
+      },
+      {
+        "name": "2025-03-19T08:08:00.000Z",
+        "series": "Instance-2: xvda1",
+        "device": "xvda1",
+        "written": 487.29
+      },
+      {
+        "name": "2025-03-19T08:10:00.000Z",
+        "series": "Instance-1: xvda1",
+        "device": "xvda1",
+        "written": 736.42
+      },
+      {
+        "name": "2025-03-19T08:10:00.000Z",
+        "series": "Instance-2: xvda1",
+        "device": "xvda1",
+        "written": 645.78
+      },
+      {
+        "name": "2025-03-19T08:12:00.000Z",
+        "series": "Instance-1: xvda1",
+        "device": "xvda1",
+        "written": 412.87
+      },
+      {
+        "name": "2025-03-19T08:12:00.000Z",
+        "series": "Instance-2: xvda1",
+        "device": "xvda1",
+        "written": 856.32
+      },
+      {
+        "name": "2025-03-19T08:14:00.000Z",
+        "series": "Instance-1: xvda1",
+        "device": "xvda1",
+        "written": 124.56
+      },
+      {
+        "name": "2025-03-19T08:14:00.000Z",
+        "series": "Instance-2: xvda1",
+        "device": "xvda1",
+        "written": 1124.58
+      },
+      {
+        "name": "2025-03-19T08:16:00.000Z",
+        "series": "Instance-1: xvda1",
+        "device": "xvda1",
+        "written": 267.34
+      },
+      {
+        "name": "2025-03-19T08:16:00.000Z",
+        "series": "Instance-2: xvda1",
+        "device": "xvda1",
+        "written": 987.64
+      },
+      {
+        "name": "2025-03-19T08:18:00.000Z",
+        "series": "Instance-1: xvda1",
+        "device": "xvda1",
+        "written": 585.58
+      },
+      {
+        "name": "2025-03-19T08:18:00.000Z",
+        "series": "Instance-2: xvda1",
+        "device": "xvda1",
+        "written": 782.35
+      },
+      {
+        "name": "2025-03-19T08:20:00.000Z",
+        "series": "Instance-1: xvda1",
+        "device": "xvda1",
+        "written": 145.13
+      },
+      {
+        "name": "2025-03-19T08:20:00.000Z",
+        "series": "Instance-2: xvda1",
+        "device": "xvda1",
+        "written": 576.42
+      }
+    ],
+    "valueKeys": ["value", "written"]
+  }
+}
