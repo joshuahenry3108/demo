@@ -1,7 +1,7 @@
 revolte:
   version: '1.0'
-  project: Datadog
-  appName: LogMonitorService
+  project: Postman
+  appName: LoggerService
   env:
     preview:
       branch: task_shared-components
@@ -10,6 +10,7 @@ revolte:
           name: webservice
           type: WEB_SERVICE
           entryPoint: /src/app.js
+          domain: api.revolte.com
           specifications:
             cpu: 2
             memory: 2
