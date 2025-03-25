@@ -7,7 +7,7 @@ revolte:
       branch: task_shared-components
       services:
         rid_1:
-          name: web-service
+          name: webservice
           type: WEB_SERVICE
           entryPoint: /src/app.js
           specifications:
