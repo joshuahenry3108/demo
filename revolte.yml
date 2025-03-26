@@ -1,15 +1,15 @@
 revolte:
   version: '1.0'
-  project: Postman
-  appName: LoggerService
+  project: Gpay
+  appName: Transaction Service
   env:
-    preview:
+    production:
       branch: task_shared-components
       services:
         rid_1:
-          name: webservice
+          name: webService
           type: WEB_SERVICE
-          entryPoint: /src/app.js
+          entryPoint: index.js
           domain: api.revolte.com
           specifications:
             cpu: 2
