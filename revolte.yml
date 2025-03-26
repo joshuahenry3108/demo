@@ -3,7 +3,7 @@ revolte:
   project: Gpay
   appName: Transaction Service
   env:
-    production:
+    qa:
       branch: task_shared-components
       services:
         rid_1:
