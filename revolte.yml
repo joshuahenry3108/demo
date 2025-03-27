@@ -3,7 +3,7 @@ revolte:
   project: Whatsapp
   appName: MediaService
   env:
-    production:
+    qa:
       branch: qa
       services:
         rid_1:
