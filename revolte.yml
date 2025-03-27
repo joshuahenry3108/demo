@@ -1,9 +1,9 @@
 revolte:
   version: '1.0'
-  project: Gpay
-  appName: Transaction Service
+  project: Whatsapp
+  appName: MediaService
   env:
-    qa:
+    production:
       branch: task_shared-components
       services:
         rid_1:
