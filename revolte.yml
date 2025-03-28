@@ -1,7 +1,7 @@
 revolte:
   version: '1.0'
-  project: salesforce
-  appName: security
+  project: Twillio
+  appName: Mailer
   env:
     qa:
       branch: qa
