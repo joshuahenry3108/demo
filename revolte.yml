@@ -3,7 +3,7 @@ revolte:
   project: Paaypal
   appName: paaypal-app
   env:
-    qa:
+    preview:
       branch: qa-test
       services:
         rid_1:
