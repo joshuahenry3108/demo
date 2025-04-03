@@ -1,13 +1,13 @@
 revolte:
   version: '1.0'
-  project: Whatsapp
-  appName: MediaService
+  project: Paaypal
+  appName: paaypal-app
   env:
     qa:
       branch: staging
       services:
         rid_1:
-          name: webService
+          name: SubscriptionService
           type: WEB_SERVICE
           entryPoint: index.js
           domain: api.revolte.com
@@ -29,7 +29,7 @@ revolte:
               DATABASE_USERNAME: '#{db.dbUsername}'
               DATABASE_PASSWORD: '#{db.dbPassword}'
         rid_2:
-          name: db
+          name: SubscriptionDB
           type: DATABASE
           specifications:
             cpu: 2
