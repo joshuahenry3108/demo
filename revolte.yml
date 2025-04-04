@@ -1,7 +1,7 @@
 revolte:
   version: '1.0'
-  project: Manage Credit
-  appName: account-verification
+  project: FigmaApp
+  appName: Portal-fe
   env:
     preview:
       branch: main
