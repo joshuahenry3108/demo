@@ -1,0 +1,33 @@
+revolte:
+  version: '1.0'
+  project: Manage Credit
+  appName: account-verification
+  env:
+    preview:
+      branch: main
+      services:
+        rid_1:
+          name: account-verification-service
+          type: WEB_SERVICE
+          entryPoint: index.js
+          specifications:
+            cpu: 2
+            memory: 2
+            storage: 30
+          properties:
+            health: /health
+            port: 8080
+            variables:
+              BASE_URL: /api/v1
+              DATABASE_URL: '#{account-verification-db.dbUrl}'
+              DATABASE_PORT: '#{account-verification-db.dbPort}'
+              DATABASE_USERNAME: '#{account-verification-db.dbUsername}'
+              DATABASE_PASSWORD: '#{account-verification-db.dbPassword}'
+        rid_2:
+          name: account-verification-db
+          type: DATABASE
+          specifications:
+            cpu: 2
+            memory: 2
+            storage: 30
+            engine: postgres
