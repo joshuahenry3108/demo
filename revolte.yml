@@ -1,13 +1,13 @@
 revolte:
   version: '1.0'
-  project: FigmaApp
-  appName: Portal-fe
+  project: Facebook
+  appName: BackendDemo
   env:
-    preview:
+    staging:
       branch: main
       services:
         rid_1:
-          name: account-verification-service
+          name: payment-service
           type: WEB_SERVICE
           entryPoint: index.js
           specifications:
@@ -19,12 +19,12 @@ revolte:
             port: 8080
             variables:
               BASE_URL: /api/v1
-              DATABASE_URL: '#{account-verification-db.dbUrl}'
-              DATABASE_PORT: '#{account-verification-db.dbPort}'
-              DATABASE_USERNAME: '#{account-verification-db.dbUsername}'
-              DATABASE_PASSWORD: '#{account-verification-db.dbPassword}'
+              DATABASE_URL: '#{payment-service-db.dbUrl}'
+              DATABASE_PORT: '#{payment-service-db.dbPort}'
+              DATABASE_USERNAME: '#{payment-service-db.dbUsername}'
+              DATABASE_PASSWORD: '#{payment-service-db.dbPassword}'
         rid_2:
-          name: account-verification-db
+          name: payment-service-db
           type: DATABASE
           specifications:
             cpu: 2
