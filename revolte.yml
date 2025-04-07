@@ -1,7 +1,7 @@
 revolte:
   version: '1.0'
-  project: Twillio
-  appName: Mailer
+  project: Demo3
+  appName: Sample BE
   env:
     qa:
       branch: qa
