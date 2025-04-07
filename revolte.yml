@@ -1,7 +1,7 @@
 revolte:
   version: '1.0'
-  project: Facebook
-  appName: BackendDemo
+  project: Demo3
+  appName: Sample BE
   env:
     staging:
       branch: main
